@@ -379,7 +379,7 @@ The syntax for the second part is:
 <A NAME="lbAM">&nbsp;</A>
 <H2>LIST OF WIDGETS</H2>
 
-There is fifteen types of widgets.
+There are fifteen types of widgets.
 <P>
 <DL COMPACT>
 <DT><B>CheckBox</B>: Display check box with a string.<DD>
@@ -492,7 +492,7 @@ The size property is ignored
 <BR>&nbsp;This&nbsp;type&nbsp;of&nbsp;widget&nbsp;can&nbsp;be&nbsp;used&nbsp;to&nbsp;decorate&nbsp;window.
 <P>
 <DT><B>SwallowExec</B><DD>
-This type of widget causes FvwmScript to spawn an process, and capture the
+This type of widget causes FvwmScript to spawn a process, and capture the
 first window whose name or resource is equal to Title, and display it in
 the script window.
 <P>
@@ -864,7 +864,7 @@ following syntax:
 
 <blockquote><PRE>While $i&lt;5 Do
 Begin
- Set $i=(Add i 1)  # List of instructions
+ Set $i=(Add $i 1)  # List of instructions
 End</PRE></blockquote>
 <P>
 
